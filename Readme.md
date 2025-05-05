@@ -1,6 +1,7 @@
 # project contain
 - Discovery Service
 - Service client
+- Config Server
 
 ### Service Discovery
 module: service-discovery
@@ -16,3 +17,8 @@ port 8081
 module: service-client-two
 
 port 8082
+
+### Service config server
+module: service-config-server
+
+port 9002

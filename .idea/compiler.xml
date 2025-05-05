@@ -2,15 +2,16 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for service-client-two" enabled="true">
+      <profile name="Annotation profile for service-config-server" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
-        <module name="service-client-two" />
+        <module name="service-config-server" />
         <module name="service-client-one" />
+        <module name="service-client-two" />
         <module name="service-discovery" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="service-client-one" options="-parameters" />
       <module name="service-client-two" options="-parameters" />
+      <module name="service-config-server" options="-parameters" />
       <module name="service-discovery" options="-parameters" />
     </option>
   </component>
