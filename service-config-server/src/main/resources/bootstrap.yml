@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: file://Users/thitiwasnupan/Development/spring-cloud/application-config
+          uri: https://github.com/thitiwasttn/spring-cloud/
 
 eureka:
   client:
