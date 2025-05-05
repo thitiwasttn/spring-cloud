@@ -13,5 +13,4 @@ public class CloudConfigsServer {
     private String name;
     @Value("${my-config.example-value: default value}")
     private String exampleValue;
-
 }
