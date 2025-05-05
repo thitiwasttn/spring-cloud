@@ -26,4 +26,10 @@ public class HomeController {
     public ResponseEntity<String> name() {
         return ResponseEntity.ok("the following value read form config server = " + cloudConfigsServer.getName());
     }
+
+    @GetMapping("/example-value")
+    public ResponseEntity<String> exampleValue() {
+        String s = "the following value read form config server = " + cloudConfigsServer.getExampleValue();
+        return ResponseEntity.ok(s);
+    }
 }

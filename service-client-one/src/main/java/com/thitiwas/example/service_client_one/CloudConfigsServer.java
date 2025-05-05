@@ -11,5 +11,7 @@ import org.springframework.context.annotation.Configuration;
 public class CloudConfigsServer {
     @Value("${my-config.name: default value}")
     private String name;
+    @Value("${my-config.example-value: default value}")
+    private String exampleValue;
 
 }
