@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/service-one")
+@RequestMapping
 public class HomeController {
 
     private final CloudConfigsServer cloudConfigsServer;
